@@ -36,3 +36,11 @@ Replace services with validated aggregated data only after agreeing definitions,
 
 ## Revision: 15 October 2026
 Added a total payment cap, cost stress input, explicit nine-month observation window and 180-day sustained employment definition, synthetic labels, cost boundaries and methodological references. All figures remain uncalibrated synthetic examples. Sources inform design, not numeric benchmarks.
+
+## Deploy to Vercel
+
+Import this repository with Framework Preset **Other**, Root Directory set to the repository root, Build Command left empty, and Output Directory **public**. The prebuilt homepage is public/index.html. vercel.json sets these defaults. No dependencies, API keys or environment variables are required. After changing dashboard.ts, run node build.mjs and commit the regenerated HTML files.
+
+## Preview images
+
+Screenshots are not included yet. Open the deployed dashboard and capture the overview and funding scenario sections for the README.
